@@ -22,4 +22,6 @@ public class CameraFollow : MonoBehaviour
         transform.position = sPos;  
         transform.LookAt(lookTarget.position);
     }
+
+   
 }
